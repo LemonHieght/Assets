@@ -26,4 +26,9 @@ public class TextBehavior : MonoBehaviour
     {
         textObj.text =preText + obj.value.ToString( CultureInfo.InvariantCulture);
     }
+    
+    public void UpdateText(string obj)
+    {
+        textObj.text =preText + obj.ToString( CultureInfo.InvariantCulture);
+    }
 }
